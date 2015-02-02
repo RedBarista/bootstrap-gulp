@@ -1,0 +1,45 @@
+/* line 4, ../../../components/sass/modules/_pixgrid.scss */
+.pixgrid img {
+  max-width: 90px;
+  display: block;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+  padding: 0 5px 5px 0;
+  cursor: url(../images/misc/magnifying_glass.png), auto;
+}
+/* line 12, ../../../components/sass/modules/_pixgrid.scss */
+.pixgrid .preview img {
+  padding: 0;
+}
+
+/* line 4, ../../../components/sass/modules/_rclick.scss */
+.rclick .item {
+  display: block;
+  float: left;
+}
+/* line 7, ../../../components/sass/modules/_rclick.scss */
+.rclick .item img {
+  -moz-border-radius: none;
+  -webkit-border-radius: none;
+  border-radius: none;
+}
+/* line 12, ../../../components/sass/modules/_rclick.scss */
+.rclick .preview {
+  position: relative;
+}
+/* line 15, ../../../components/sass/modules/_rclick.scss */
+.rclick .preview img {
+  position: absolute;
+  z-index: 90;
+  max-width: 400px;
+  display: block;
+  border: 1px solid #FCF4DC;
+  margin: 0;
+  -moz-border-radius: none;
+  -webkit-border-radius: none;
+  border-radius: none;
+  -moz-box-shadow: black 5px 5px 12px;
+  -webkit-box-shadow: black 5px 5px 12px;
+  box-shadow: black 5px 5px 12px;
+}

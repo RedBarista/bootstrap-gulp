@@ -1,0 +1,19 @@
+// style.scss
+// ==============
+ 
+//Compass imports
+@import "compass";
+//@import "compass/reset";
+//@import "compass/css3/box-shadow";
+ 
+//Core partials
+@import "core/variables";
+@import "core/mixins";
+@import "core/base";
+@import "core/layout";
+@import "core/modules";
+@import "core/states";
+ 
+// JS partials
+@import "modules/pixgrid";
+@import "modules/rclick";
